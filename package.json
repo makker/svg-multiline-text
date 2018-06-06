@@ -1,0 +1,39 @@
+{
+  "name": "svg-multiline-text",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=4.1.1"
+  },
+  "description": "This is a plugin for SnapSVG enabling setting multiline text",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makker/svg-multiline-text.git"
+  },
+  "keywords": [
+    "snapsvg",
+    "svgjs",
+    "multiline",
+    "text",
+    "paragraph",
+    "settext",
+    "dynamic"
+  ],
+  "author": "Markus Ruottu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/makker/svg-multiline-text/issues"
+  },
+  "homepage": "https://github.com/makker/svg-multiline-text#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "snapsvg": "^0.5.1"
+  }
+}
